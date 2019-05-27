@@ -34,4 +34,5 @@ public class GameViewModel extends ViewModel {
     public LiveData<Player> getWinner() {
         return game.winner;
     }
+
 }
